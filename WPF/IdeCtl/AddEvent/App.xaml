@@ -1,0 +1,9 @@
+﻿<Application x:Class="ww10_wpf_test1.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:MyNamespace="clr-namespace:WinWrap.Basic"
+    StartupUri="Window1.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

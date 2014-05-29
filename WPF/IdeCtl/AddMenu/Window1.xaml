@@ -1,0 +1,10 @@
+﻿<Window x:Class="samp.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:WinWrap="clr-namespace:WinWrap.Basic;assembly=ww10_wpf"
+    Title="Window1" Height="350" Width="400">
+    <Grid>
+        <Menu/>
+        <WinWrap:BasicIdeCtl Name="basicIdeCtl1" Margin="0,20,0,0" />
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+﻿<Window x:Class="Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:my="clr-namespace:WinWrap.Basic;assembly=ww10_wpf"
+    Title="Window1" Height="350" Width="400">
+    <Grid>
+        <my:BasicIdeCtl Name="BasicIdeCtl1" />
+    </Grid>
+</Window>

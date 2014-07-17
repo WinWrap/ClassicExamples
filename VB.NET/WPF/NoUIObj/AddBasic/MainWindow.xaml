@@ -1,0 +1,32 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="VB BasicNoUIObj" Height="350" Width="525">
+    <Grid>
+        <Menu Height="23" HorizontalAlignment="Left" Name="Menu1" VerticalAlignment="Top" Width="200">
+            <MenuItem Header="File">
+                <MenuItem Header="Exit" Name="miFileExit" />
+            </MenuItem>
+            <MenuItem Header="Test">
+                <MenuItem Header="Run MsgBox.bas" Name="miTestRunMsgBox" />
+                <MenuItem Header="Run Wait.bas" Name="miTestRunWait" />
+                <Separator/>
+                <MenuItem Header="Run to Error" Name="miTestRuntoError" />
+            </MenuItem>
+            <MenuItem Header="Trace" Name="miTrace">
+                <MenuItem Header="Action (property set or method call)" Name="miTraceAction" IsCheckable="True" IsChecked="True" />
+                <MenuItem Header="Query (property get)" Name="miTraceQuery" IsCheckable="True" />
+                <MenuItem Header="Action Event" Name="miTraceActionEvent" IsCheckable="True" IsChecked="True" />
+                <MenuItem Header="Query Event" Name="miTraceQueryEvent" IsCheckable="True" IsChecked="True" />
+                <MenuItem Header="Internal" Name="miTraceInternal" IsCheckable="True" IsChecked="True" />
+                <MenuItem Header="Execution" Name="miTraceExecution" IsCheckable="True" IsChecked="True" />
+                <Separator/>
+                <MenuItem Header="None" Name="miTraceNone" />
+                <MenuItem Header="All" Name="miTraceAll" />
+                <Separator/>
+                <MenuItem Header="Clear" Name="miTraceClear" />
+            </MenuItem>
+        </Menu>
+        <TextBox Height="257" HorizontalAlignment="Stretch" Name="txtTrace" VerticalAlignment="Bottom" AcceptsReturn="True" IsReadOnly="True" Background="Black" Foreground="Lime" FontFamily="Courier New" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" />
+    </Grid>
+</Window>

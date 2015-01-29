@@ -35,6 +35,8 @@ namespace samp
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            this.basicNoUIObj.AddExtension("$Feature WWB-COM True", null);
+
             // *** AddBasic: required
             this.basicNoUIObj.DebugTrace += new EventHandler<TextEventArgs>(basicIdeObj_DebugTrace);
 

@@ -201,6 +201,8 @@ Public Class Form1
 #End Region
 
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        BasicIdeCtl1.AddExtension("$Feature WWB-COM True", Nothing)
+
         ' *** AddBasic: optional
         ' turn on tracing
         BasicIdeCtl1.Trace(TraceConstants.All And Not TraceConstants.QueryEvent)

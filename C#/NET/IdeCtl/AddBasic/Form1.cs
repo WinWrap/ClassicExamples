@@ -279,6 +279,8 @@ namespace samp
 
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
+            basicIdeCtl1.AddExtension("$Feature WWB-COM True", null);
+
 			// *** AddBasic: optional
 			// turn on tracing
 			basicIdeCtl1.Trace(TraceConstants.All&~TraceConstants.QueryEvent);

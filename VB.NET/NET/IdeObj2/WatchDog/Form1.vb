@@ -214,6 +214,8 @@ Public Class Form1
 #End Region
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        BasicIdeObj.AddExtension("$Feature WWB-COM True", Nothing)
+
         ' *** AddBasic: required
         ' replace with your Application/Server certificate's secret
         BasicIdeObj.Secret = New Guid("{00000000-0000-0000-0000-000000000000}")

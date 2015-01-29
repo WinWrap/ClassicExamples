@@ -300,7 +300,9 @@ namespace samp
 
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
-			// *** AddBasic: required
+            basicNoUIObj.AddExtension("$Feature WWB-COM True", null);
+
+            // *** AddBasic: required
             // replace with your Application/Server certificate's secret
             basicNoUIObj.Secret = new Guid("{00000000-0000-0000-0000-000000000000}");
             basicNoUIObj.Initialize();

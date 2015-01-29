@@ -412,6 +412,8 @@ namespace samp
 
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
+            basicNoUIObj1.AddExtension("$Feature WWB-COM True", null);
+
             // *** AddBasic: required
             // set your Application/Server certificate's secret first
             basicNoUIObj1.Initialize();

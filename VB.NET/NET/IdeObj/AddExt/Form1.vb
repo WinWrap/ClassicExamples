@@ -229,6 +229,8 @@ Public Class Form1
 #End Region
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        BasicIdeObj1.AddExtension("$Feature WWB-COM True", Nothing)
+
         ' *** AddBasic: required
         ' set your Application/Server certificate's secret first
         BasicIdeObj1.Initialize()

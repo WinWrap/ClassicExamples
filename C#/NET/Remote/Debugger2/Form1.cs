@@ -295,6 +295,8 @@ namespace samp
 
 		private void Form1_Load(object sender, System.EventArgs e)
 		{
+            basicIdeObj1.AddExtension("$Feature WWB-COM True", null);
+
             // *** AddBasic: required
             // set your Application/Server certificate's secret first
             basicIdeObj1.Initialize();

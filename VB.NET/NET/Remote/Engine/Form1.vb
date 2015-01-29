@@ -335,6 +335,8 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        BasicNoUIObj1.AddExtension("$Feature WWB-COM True", Nothing)
+
         ' *** AddBasic: required
         ' set your Application/Server certificate's secret first
         BasicNoUIObj1.Initialize()

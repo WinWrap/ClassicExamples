@@ -7,6 +7,8 @@ Class MainWindow
     Private WithEvents BasicNoUIObj As New BasicNoUIObj
 
     Private Sub MainWindow_Loaded(ByVal sender As Object, ByVal e As System.Windows.RoutedEventArgs) Handles Me.Loaded
+        BasicNoUIObj.AddExtension("$Feature WWB-COM True", Nothing)
+
         ' *** AddBasic: required
         ' replace with your Application/Server certificate's secret
         BasicNoUIObj.Secret = New Guid("{00000000-0000-0000-0000-000000000000}")

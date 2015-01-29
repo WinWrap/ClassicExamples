@@ -39,6 +39,8 @@ namespace samp
 
         private void BasicIdeForm_Load(object sender, EventArgs e)
         {
+            basicIdeCtl1.AddExtension("$Feature WWB-COM True", null);
+
             InitializeArgs args = new InitializeArgs();
             args.Basic = basicIdeCtl1;
             Initialize(this, args);
